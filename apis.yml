@@ -1,8 +1,26 @@
 aid: nagish
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nagish.png
 name: Nagish
-description: Nagish is a company surfaced as a portfolio company of canaan-partners, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Nagish (now operating as Rylo, following an $85M raise and rebrand) is a
+  free phone-call captioning and live-transcription service for people who are Deaf,
+  hard of hearing, or have a speech disability. Originally launched as the Nagish app
+  (talknagish.com), the FCC-certified service delivers real-time captions on incoming
+  and outgoing calls, in-person Live Transcribe, voicemail captioning, 50+ language
+  support, and AI-powered quick replies, with transcripts kept private on-device. It
+  is a consumer mobile/telecom product and publishes no public API, SDK, or developer
+  portal. Backed by Canaan Partners and Techstars; profiled in the API Evangelist
+  network as a company lead.
 url: https://raw.githubusercontent.com/api-evangelist/nagish/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +29,19 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'Rebrand: talknagish.com -> nagish.com -> rylo.com (301). Now trading as Rylo.
+  No public API surface as of 2026-07-20.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Accessibility
+- Captioning
+- Transcription
+- Telecommunications
+- Deaf and Hard of Hearing
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nagish-domain-security.yml
 - type: Website
-  url: https://talknagish.com/
+  url: https://rylo.com/
+- type: Blog
+  url: https://rylo.com/blog
+- type: Support
+  url: https://rylo.com/contact
+- type: HelpCenter
+  url: https://help.rylo.com/
+- type: PrivacyPolicy
+  url: https://rylo.com/legal/privacy
+- type: TermsOfService
+  url: https://rylo.com/legal/terms
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
