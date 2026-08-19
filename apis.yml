@@ -31,7 +31,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-note: 'Rebrand: talknagish.com -> nagish.com -> rylo.com (301). Now trading as Rylo.
   No public API surface as of 2026-07-20.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
