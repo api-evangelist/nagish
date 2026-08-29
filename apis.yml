@@ -33,6 +33,8 @@ description: Nagish (now operating as Rylo, following an $85M raise and rebrand)
   portal. Backed by Canaan Partners and Techstars; profiled in the API Evangelist
   network as a company lead.
 url: https://raw.githubusercontent.com/api-evangelist/nagish/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
